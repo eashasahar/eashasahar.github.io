@@ -7,8 +7,8 @@ const nextConfig = {
   reactStrictMode: true,
   // basePath: '/Blog',
   // assetPrefix: '/Blog/',
-  // output: 'export',
-  // distDir: '../out',
+  output: 'export',
+  distDir: '../out',
   webpack: (config, { isServer }) => {
     if (isServer) {
 
