@@ -1,0 +1,33 @@
+{
+  "tags": [
+    { "name": "Top", "url": "/tag/top" },
+    { "name": "Paintings", "url": "/tag/paintings" },
+    { "name": "3D", "url": "/tag/3d" },
+    { "name": "Fabric", "url": "/tag/3d" },
+    { "name": "Drawing", "url": "/tag/drawing" }
+  ],
+  "posts": [
+    {
+      "img": "https://picsum.photos/800/450?random=2",
+      "tag": "Catalog",
+      "title": "Top Paintings - 2024",
+      "description": "Checkout some of my top paintings i created in 2024. It is a complete catalog of 23 paintings i creaetd because I did not have anything else to do.",
+      "date": "2023-09-10",
+      "url": "/post/top-paintings-2024",
+      "authors": [
+        { "name": "Easha Sahar", "avatar": null, "url": "/author/easha-sahar" }
+      ]
+    },
+    {
+      "img": "https://picsum.photos/800/450?random=1",
+      "tag": "Project",
+      "title": "Fox Animated Short-Story",
+      "description": "It is one of my 3d projects. it has a fox that usually around here and there with brushes in her head.",
+      "date": "2023-09-15",
+      "url": "/post/fox-animated-story",
+      "authors": [
+        { "name": "Easha Sahar", "avatar": null, "url": "/author/easha-sahar" }
+      ]
+    }
+  ]
+}

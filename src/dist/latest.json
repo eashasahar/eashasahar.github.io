@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Project One",
+    "date": "2024-10-01",
+    "authors": [
+      {
+        "name": "Easha Sahar",
+        "avatar": "/assets/images/avatar/john-doe.jpg"
+      }
+    ],
+    "tags": [
+      "Project"
+    ],
+    "description": "All the detalis about this project under this post.",
+    "slug": "project-alpha",
+    "url": "/project-alpha"
+  },
+  {
+    "title": "Project One",
+    "date": "2024-10-01",
+    "authors": [
+      {
+        "name": "Easha Sahar",
+        "avatar": "/assets/images/avatar/john-doe.jpg"
+      }
+    ],
+    "tags": [
+      "Project"
+    ],
+    "description": "All the detalis about this project under this post.",
+    "slug": "project-beta",
+    "url": "/project-beta"
+  },
+  {
+    "title": "Project One",
+    "date": "2024-10-01",
+    "authors": [
+      {
+        "name": "Easha Sahar",
+        "avatar": "/assets/images/avatar/john-doe.jpg"
+      }
+    ],
+    "tags": [
+      "Project"
+    ],
+    "description": "All the detalis about this project under this post.",
+    "slug": "project-gama",
+    "url": "/project-gama"
+  },
+  {
+    "title": "Project One",
+    "date": "2024-10-01",
+    "authors": [
+      {
+        "name": "Easha Sahar",
+        "avatar": "/assets/images/avatar/john-doe.jpg"
+      }
+    ],
+    "tags": [
+      "Project"
+    ],
+    "description": "All the detalis about this project under this post.",
+    "slug": "project-one",
+    "url": "/project-one"
+  },
+  {
+    "title": "Project One",
+    "date": "2024-10-01",
+    "authors": [
+      {
+        "name": "Easha Sahar",
+        "avatar": "/assets/images/avatar/john-doe.jpg"
+      }
+    ],
+    "tags": [
+      "Project"
+    ],
+    "description": "All the detalis about this project under this post.",
+    "slug": "project-two",
+    "url": "/project-two"
+  }
+]

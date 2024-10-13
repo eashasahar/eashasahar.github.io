@@ -1,0 +1,10 @@
+{
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
+  },
+  "scripts": {
+    "build": "cd src && npm run build && cd ..",
+    "postbuild": "echo > ./out/.nojekyll",
+    "deploy": "npm run build && gh-pages -d out --dotfiles"
+  }
+}

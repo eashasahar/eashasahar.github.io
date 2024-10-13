@@ -1,0 +1,18 @@
+[
+    {
+        "label": "Gallary",
+        "url": "/gallary"
+    },
+    {
+        "label": "FAQs",
+        "url": "/faqs"
+    },
+    {
+        "label": "About Me",
+        "url": "/about"
+    },
+    {
+        "label": "Contact",
+        "url": "/contact"
+    }
+]
