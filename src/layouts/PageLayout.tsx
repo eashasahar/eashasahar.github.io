@@ -39,19 +39,19 @@ const PageLayout: React.FC<PageLayoutProps> = ({ children }) => {
   const defaultTheme = createTheme({ palette: { mode } });
 
   React.useEffect(() => {
-    const savedMode = localStorage.getItem('themeMode') as PaletteMode | null;
-    if (savedMode) {
-      setMode(savedMode);
-    } else {
-      const savedModeFromCookie = getCookie('themeMode') as PaletteMode | null;
+    // const savedMode = localStorage.getItem('themeMode') as PaletteMode | null;
+    // if (savedMode) {
+    //   setMode(savedMode);
+    // } else {
+    //   const savedModeFromCookie = getCookie('themeMode') as PaletteMode | null;
       
-      if (savedModeFromCookie) {
-        setMode(savedModeFromCookie);
-      } else {
-        const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
-        setMode(systemPrefersDark ? 'dark' : 'light');
-      }
-    }
+    //   if (savedModeFromCookie) {
+    //     setMode(savedModeFromCookie);
+    //   } else {
+    //     const systemPrefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+    //     setMode(systemPrefersDark ? 'dark' : 'light');
+    //   }
+    // }
   }, []);
 
   const toggleColorMode = () => {
